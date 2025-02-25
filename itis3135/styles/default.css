@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(140, 232, 232);
+    margin: 10px;
+}
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: white;
+}
+a{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: white;
+}
+main h2, main p{
+    color: navy;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.intro-pic{
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+figcaption{
+    text-align: center;
+    font-style: italic;
+}
+p, h2{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+header{
+    background-color: navy;
+    padding: 5px;
+}
+nav{
+    text-align: right;
+    color: white;
+}
+nav a{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+ul:nth-child(8){
+    list-style-type: none;
+}
+footer{
+    width: 98%;
+    background-color: navy;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
